@@ -1,181 +1,203 @@
 <!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Jaundre Smit Digital CV</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Jaundre Smit Digital CV</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            text-align: center;
+            font-size: 2em;
+            color: #333;
+        }
+        .content-section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #000;
+            border-radius: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .content-section h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .content-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .content-section p {
+            margin: 5px 0;
+        }
+        .button {
+            background-color: #1d1d1110;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            font-size: 1em;
+            text-align: center;
+            width: auto;
+        }
+        @media (max-width: 768px) {
+            .content-section {
+                width: 100%;
+                margin: 10px 0;
+            }
+            .button {
+                width: auto;
+                font-size: 1em;
+                padding: 0px 20px;
+            }
+        }
+    </style>
+</head>
+<body class="is-preload">
 
-		<!-- Header -->
-			<header id="header">
-    <div class="inner" >
-        <a href="#" class="image avatar">
-            <img src="assets/Personal/JaundreSmit1.png" alt="" style="width: fit-content(); height: auto; " />
-        </a>
-        <p>
-            <h1> <span style="font-size: larger;"></span><strong>Jaundre Smit</strong></span><br />
-            <i>BSc Information Technology Student</i></br>
-            <span style="font-size: smaller;">North-West University, Potchefstroom Campus</span>
-        </p>
+	<header id="header">
+		<div class="inner" >
+			<a href="#" class="image avatar">
+				<img src="assets/Personal/JaundreSmit1.png" alt="" style="width: fit-content(); height: auto; " />
+			</a>
+			<p>
+				<h1> <span style="font-size: larger;"></span><strong>Jaundre Smit</strong></span><br />
+				<i>BSc Information Technology Student</i></br>
+				<span style="font-size: smaller;">North-West University, Potchefstroom Campus</span>
+			</p>
+		</div>
+	</header>
+
+    <!-- Main -->
+    <div id="main">
+        <!-- About Me -->
+        <section id="AboutMe">
+            <header class="major">
+                <h2>About Me</h2>
+            </header>
+            <p>Hello, I'm Jaundre Smit, currently a third-year student pursuing a BSc in Information Technology at North-West University (NWU), Potchefstroom Campus. I am highly dedicated and passionate about the field of IT, with a keen interest in machine learning and artificial intelligence.</p>
+        </section>
+
+        <!-- Experience -->
+        <section id="Experience">
+            <h2>Experience</h2>
+            <!-- Tutoring Experience -->
+            <div class="content-section">
+                <h3><u>Tutoring Experience</u></h3>
+                <p><strong>.Net Framework Tutor</strong> <span style="font-size: smaller;">July 2023 - December 2023</span></p>
+                <p><i>North-West University / Noordwes-Universiteit</i></p>
+                <p>I tutored undergraduate students at the NWU-Potchefstroom campus in C#-based .Net framework.</p>
+                <br>
+                <p><strong>Structured Programming Tutor</strong> <span style="font-size: smaller;">July 2024 - Present</span></p>
+                <p><i>North-West University / Noordwes-Universiteit</i></p>
+                <p>I am currently tutoring undergraduate students at NWU-Potchefstroom campus in C++ based structured programming.</p>
+            </div>
+
+            <!-- Work Experience -->
+            <div class="content-section">
+                <h3><u>Work Experience</u></h3>
+                <p><strong>Full-Stack Developer</strong> <span style="font-size: smaller;">June 2024 - Present</span></p>
+                <p><i>Sporeemporium</i></p>
+                <p>Currently working as main full-stack developer for Sporeemporium, creating a complete website with ordering, payment, admin BI dashboard, and relational database integration functionality.</p>
+                <br>
+                <p><strong>Data Engineer Job Shadowing</strong> <span style="font-size: smaller;">June 2024</span></p>
+                <p><i>Fourier-E</i></p>
+                <p>Shadowed data engineers to gain insight into data processing and analysis techniques, contributing to ongoing projects and learning best practices.</p>
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="assets/Personal/JaundreSmitCV.docx" class="button">Downloadable CV</a>
+            </div>
+        </section>
+
+        <!-- Project Experience -->
+        <section id="Projects">
+            <h2>Projects</h2>
+            <div class="row" style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+                <!-- Project 1 -->
+                <div class="content-section" style="max-width: 300px;">
+                    <h3><u>Food On Campus</u></h3>
+                    <div style="text-align: center; margin: 10px 0;">
+                        <img src="assets/Personal/FoodOnCampus.jpg" alt="FoodOnCampus Image">
+                    </div>
+                    <p>A food delivery service acting as an intermediary between restaurants and students in Potchefstroom.</p>
+                    <p><strong>Technologies:</strong> C#, .NET Windows Forms, MySQL</p>
+                    <div style="text-align: center;">
+                        <a href="https://github.com/JaundreSmit/FoodOnCampus" class="button">View On Github</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="content-section" style="max-width: 300px;">
+                    <h3><u>Popcorn Picks</u></h3>
+                    <div style="text-align: center; margin: 10px 0;">
+                        <img src="assets/Personal/PopcornPicks.jpg" alt="PopcornPicks Image">
+                    </div>
+                    <p>An online, AI powered movie recommender (W.I.P.)</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <div style="text-align: center;">
+                        <a href="https://github.com/JaundreSmit/Popcorn-Picks" class="button">View On Github</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get In Touch -->
+        <section id="GetInTouch">
+            <h2>Get In Touch</h2>
+            <div style="display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: wrap;">
+                <!-- LinkedIn -->
+                <div style="display: flex; align-items: center;">
+                    <a href="https://www.linkedin.com/in/jaundre-smit-b78513263/" style="text-decoration: none; display: flex; align-items: center;">
+                        <img src="assets/Personal/LinkedInLogo.png" alt="LinkedIn" style="width: 50px; height: auto; margin-right: 10px;">
+                        <p style="font-size: 1.2em; color: #333; margin: 0;"><u>LinkedIn</u></p>
+                    </a>
+                </div>
+                <!-- LeetCode -->
+                <div style="display: flex; align-items: center;">
+                    <a href="https://leetcode.com/u/Gemmer/" target="_blank" style="text-decoration: none; display: flex; align-items: center;">
+                        <img src="assets/Personal/LeetcodeLogo.png" alt="LeetCode" style="width: 50px; height: auto; margin-right: 10px;">
+                        <p style="font-size: 1.2em; color: #333; margin: 0;"><u>LeetCode</u></p>
+                    </a>
+                </div>
+                <!-- GitHub -->
+                <div style="display: flex; align-items: center;">
+                    <a href="https://github.com/JaundreSmit" target="_blank" style="text-decoration: none; display: flex; align-items: center;">
+                        <img src="assets/Personal/GitHubLogo.png" alt="GitHub" style="width: 50px; height: auto; margin-right: 10px;">
+                        <p style="font-size: 1.2em; color: #333; margin: 0;"><u>GitHub</u></p>
+                    </a>
+                </div>
+                <!-- Email -->
+                <div style="display: flex; align-items: center;">
+                    <a href="mailto:jaundre123.smit@gmail.com" style="text-decoration: none; display: flex; align-items: center;">
+                        <img src="assets/Personal/EmailLogo.png" alt="Email" style="width: 50px; height: auto; margin-right: 10px;">
+                        <p style="font-size: 1.2em; color: #333; margin: 0;"><u>Email</u></p>
+                    </a>
+                </div>
+            </div>
+        </section>
     </div>
-</header>
 
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="copyright">
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+    </footer>
 
-		<!-- Main -->
-			<div id="main">
-
-				<!-- AboutMe -->
-					<section id="AboutMe">
-						<header class="major">
-							<h2 style="text-align: center; font-size: 2em; color: #333;">About Me</h2>
-						</header>
-						<p>Hello, I'm Jaundre Smit, currently a third-year student pursuing a BSc in Information Technology at North-West University (NWU),
-						 Potchefstroom Campus. I am highly dedicated and passionate about the field of IT, with a keen interest in machine learning and artificial intelligence.</p>
-					</section>
-
-				<!-- Experience -->
-				<section id="Experience" style="font-family: Arial, sans-serif;">
-					<h2 style="text-align: center; font-size: 2em; color: #333;">Experience</h2>
-					<div class="row" style="position: relative; display: flex; justify-content: space-between; flex-wrap: wrap;">
-						<!-- Tutoring Experience -->
-						<div class="col-6 col-12-medium" style="border: 1px solid #000; padding: 20px; margin-bottom: 20px; border-radius: 10px; background-color: #f9f9f9; width: 48%;">
-							<h3 style="font-size: 1.5em; margin-bottom: 10px;"><u>Tutoring Experience</u></h3>
-							<div style="margin-bottom: 15px;">
-								<p style="margin: 5px 0; display: flex; justify-content: space-between;"><strong>.Net Framework Tutor</strong><span style="font-size: smaller;">July 2023 - December 2023</span></p>
-								<p style="margin: 5px 0;"><i>North-West University / Noordwes-Universiteit</i></p>
-								<p style="margin: 5px 0;">I tutored undergraduate students at the NWU-Potchefstroom campus in C#-based .Net framework.</p>
-							</div>
-							<div>
-								<p style="margin: 5px 0; display: flex; justify-content: space-between;"><strong>Structured Programming Tutor</strong><span style="font-size: smaller;">July 2024 - Present</span></p>
-								<p style="margin: 5px 0;"><i>North-West University / Noordwes-Universiteit</i></p>
-								<p style="margin: 5px 0;">I am currently tutoring undergraduate students at NWU-Potchefstroom campus in C++ based structured programming.</p>
-							</div>
-						</div>
-						<!-- Work Experience -->
-						<div class="col-6 col-12-medium" style="border: 1px solid #000; padding: 20px; margin-bottom: 20px; border-radius: 10px; background-color: #f9f9f9; width: 48%;">
-							<h3 style="font-size: 1.5em; margin-bottom: 10px;"><u>Work Experience</u></h3>
-							<div>
-								<p style="margin: 5px 0; display: flex; justify-content: space-between;"><strong>Full-Stack Developer</strong><span style="font-size: smaller;">June 2024 - Present</span></p>
-								<p style="margin: 5px 0;"><i>Sporeemporium</i></p>
-								<p style="margin: 5px 0;">Currently working as main full-stack developer for Sporeemporium, 
-									creating a complete website with ordering, payment, admin BI dashboard, and relational database integration functionality.</p>
-							</div>
-							<div>
-								<p style="margin: 5px 0; display: flex; justify-content: space-between;"><strong>Data Engineer Job Shadowing</strong><span style="font-size: smaller;">June 2024</span></p>
-								<p style="margin: 5px 0;"><i>Fourier-E</i></p>
-								<p style="margin: 5px 0;">Shadowed data engineers to gain insight into data processing and analysis techniques,
-									 contributing to ongoing projects and learning best practices.</p>
-							</div>
-						</div>
-					</div>
-					<div style="text-align: center; margin-top: 20px;">
-						<a href="assets/Personal/JaundreSmitCV.docx" class="button" style="background-color: #1d1d1110; color: white; padding: 0px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">Downloadable CV</a>
-					</div>
-				</section>
-				
-				<!-- Project Experience -->
-				<section id="Projects" style="font-family: Arial, sans-serif; margin-top: 40px;">
-					<h2 style="text-align: center; font-size: 2em; color: #333;">Projects</h2>
-					<div class="row" style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
-						<!-- Project 1 -->
-						<div class="col-4 col-12-medium" style="border: 1px solid #000; padding: 20px; margin-bottom: 20px; border-radius: 10px; background-color: #f9f9f9; width: 30%; max-width: 300px;">
-							<h3 style="font-size: 1.5em; margin-bottom: 10px; text-align: center;"><u>Food On Campus</u></h3>
-							<div style="text-align: center; margin: 10px 0;">
-								<img src="assets/Personal/FoodOnCampus.jpg" alt="FoodOnCampus Image" style="max-width: 100%; height: auto; border-radius: 5px;">
-							</div>
-							<p style="margin: 5px 0;">A food delivery service acting as an intermediary between restaurants and students in Potchefstroom.</p>
-							<p style="margin: 5px 0;"><strong>Technologies:</strong></p>
-							<p style="margin: 5px 0; font-size: smaller;">C#, .NET Windows Forms, MySQL</p>
-							<div style="text-align: center;">
-								<a href="https://github.com/JaundreSmit/FoodOnCampus" class="button" style="background-color: #1d1d1110; color: white; padding: 0px 20px; text-decoration: none; border-radius: 5px;">View On Github</a>
-							</div>
-						</div>
-						<!-- Project 2 -->
-						<div class="col-4 col-12-medium" style="border: 1px solid #000; padding: 20px; margin-bottom: 20px; border-radius: 10px; background-color: #f9f9f9; width: 30%; max-width: 300px;">
-							<h3 style="font-size: 1.5em; margin-bottom: 10px; text-align: center;"><u>Popcorn Picks</u></h3>
-							<div style="text-align: center; margin: 10px 0;">
-								<img src="assets/Personal/PopcornPicks.jpg" alt="PopcornPicks Image" style="max-width: 100%; height: auto; border-radius: 5px;">
-							</div>
-							<p style="margin: 5px 0;">An online, AI powered movie recommender (W.I.P.)</p>
-							<br>
-							<p style="margin: 5px 0;"><strong>Technologies:</strong></p>
-							<p style="margin: 5px 0;">HTML, CSS, JavaScript</p>
-							<div style="text-align: center;">
-								<a href="https://github.com/JaundreSmit/Popcorn-Picks" class="button" style="background-color: #1d1d1110; color: white; padding: 0px 20px; text-decoration: none; border-radius: 5px;">View On Github</a>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				
-				
-				
-				
-				
-				
-
-				<!-- Get In Touch -->
-				<section id="Get In Touch" style="font-family: Arial, sans-serif; margin-top: 40px; text-align: center;">
-					<h2 style="font-size: 2em; color: #333;">Get In Touch</h2>
-					<div style="display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: wrap;">
-						<!-- LinkedIn -->
-						<div style="display: flex; align-items: center;">
-							<a href="https://www.linkedin.com/in/jaundre-smit-b78513263/" style="text-decoration: none; display: flex; align-items: center;">
-								<img src="assets/Personal/LinkedInLogo.png" alt="LinkedIn" style="width: 50px; height: auto; margin-right: 10px;">
-								<p style="font-size: 1.2em; color: #333; margin: 0;"><u>LinkedIn</u></p>
-							</a>
-						</div>
-						<!-- LeetCode -->
-						<div style="display: flex; align-items: center;">
-							<a href="https://leetcode.com/u/Gemmer/" target="_blank" style="text-decoration: none; display: flex; align-items: center;">
-								<img src="assets/Personal/LeetcodeLogo.png" alt="LeetCode" style="width: 50px; height: auto; margin-right: 10px;">
-								<p style="font-size: 1.2em; color: #333; margin: 0;"><u>LeetCode</u></p>
-							</a>
-						</div>
-						<!-- GitHub -->
-						<div style="display: flex; align-items: center;">
-							<a href="https://github.com/JaundreSmit" target="_blank" style="text-decoration: none; display: flex; align-items: center;">
-								<img src="assets/Personal/GitHubLogo.png" alt="GitHub" style="width: 50px; height: auto; margin-right: 10px;">
-								<p style="font-size: 1.2em; color: #333; margin: 0;"><u>GitHub</u></p>
-							</a>
-						</div>
-						<!-- Email -->
-						<div style="display: flex; align-items: center;">
-							<a href="mailto:jaundre123.smit@gmail.com" style="text-decoration: none; display: flex; align-items: center;">
-								<img src="assets/Personal/EmailLogo.png" alt="Email" style="width: 50px; height: auto; margin-right: 10px;">
-								<p style="font-size: 1.2em; color: #333; margin: 0;"><u>Email</u></p>
-							</a>
-						</div>
-					</div>
-				</section>
-
-
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="copyright">
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
