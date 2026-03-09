@@ -1,10 +1,6 @@
 <h1 align="center">Hi 👋, I'm Jaundré Smit</h1>
 <h3 align="center">A passionate machine learning and software developer from South Africa</h3>
 
-- 🔭 I’m currently working on [Popcorn Picks](https://github.com/JaundreSmit/PopcornPicks)
-
-- 🌱 I’m currently learning **FastAPI, PostgreSQL, React**
-
 - 👨‍💻 All of my projects are available at [https://jaundresmit.github.io/JaundreSmit](https://jaundresmit.github.io/JaundreSmit)
 
 - 📫 How to reach me **jaundre123.smit@gmail.com**
