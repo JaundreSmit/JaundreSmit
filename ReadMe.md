@@ -5,7 +5,7 @@
 
 - 📫 How to reach me **jaundre123.smit@gmail.com**
 
-- 📄 Know about my experiences [https://jaundresmit.github.io/JaundreSmit/assets/Personal/JaundreSmitCV.docx](https://jaundresmit.github.io/JaundreSmit/assets/Personal/JaundreSmitCV.docx)
+- 📄 Know about my experiences [My CV Document](https://jaundresmit.github.io/JaundreSmit/assets/Personal/JaundreSmitCV.docx)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
